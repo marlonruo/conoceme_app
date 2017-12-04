@@ -30,6 +30,9 @@
     },
     "cordova-opentok-android-permissions": {
       "PACKAGE_NAME": "org.conoceme.app"
+    },
+    "com.applozic.phonegap": {
+      "PACKAGE_NAME": "org.conoceme.app"
     }
   },
   "dependent_plugins": {

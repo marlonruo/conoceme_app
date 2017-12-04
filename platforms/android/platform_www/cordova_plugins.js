@@ -291,6 +291,14 @@ module.exports = [
       "navigator.notification",
       "navigator"
     ]
+  },
+  {
+    "id": "com.applozic.phonegap.applozic",
+    "file": "plugins/com.applozic.phonegap/www/applozic.js",
+    "pluginId": "com.applozic.phonegap",
+    "clobbers": [
+      "applozic"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -304,7 +312,8 @@ module.exports.metadata =
   "cordova-plugin-network-information": "1.3.4",
   "cordova-plugin-splashscreen": "4.1.0",
   "cordova-plugin-vibration": "2.1.6",
-  "cordova-opentok-android-permissions": "1.0.0"
+  "cordova-opentok-android-permissions": "1.0.0",
+  "com.applozic.phonegap": "0.8.0"
 };
 // BOTTOM OF METADATA
 });

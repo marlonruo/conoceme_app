@@ -29,6 +29,9 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
+    <feature name="ApplozicCordovaPlugin">
+        <param name="android-package" value="com.applozic.phonegap.ApplozicCordovaPlugin" />
+    </feature>
     <name>conocemeapp</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
