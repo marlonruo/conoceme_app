@@ -35,7 +35,7 @@
     <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
     <plugin name="cordova-plugin-vibration" spec="^2.1.6" />
     <plugin name="cordova-opentok-android-permissions" spec="^1.0.1" />
-    <plugin name="com.applozic.phonegap" spec="https://github.com/AppLozic/Applozic-Cordova-Ionic-PhoneGap-Chat-Plugin.git" /> 
+    <!--<plugin name="com.applozic.phonegap" spec="https://github.com/AppLozic/Applozic-Cordova-Ionic-PhoneGap-Chat-Plugin.git" />--> 
     
      <preference name="permissions" value="all"/>
 
