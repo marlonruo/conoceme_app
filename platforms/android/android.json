@@ -27,26 +27,6 @@
             {
               "xml": "<feature name=\"Capture\"><param name=\"android-package\" value=\"org.apache.cordova.mediacapture.Capture\" /></feature>",
               "count": 1
-            },
-            {
-              "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"ApplozicCordovaPlugin\"><param name=\"android-package\" value=\"com.applozic.phonegap.ApplozicCordovaPlugin\" /></feature>",
-              "count": 1
             }
           ]
         }
@@ -68,10 +48,6 @@
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
-              "count": 1
-            },
-            {
-              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
               "count": 1
             },
             {
@@ -105,34 +81,19 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "org.conoceme.app"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "org.conoceme.app"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "org.conoceme.app"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "org.conoceme.app"
-    },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "org.conoceme.app"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "org.conoceme.app"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "org.conoceme.app"
-    },
-    "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "org.conoceme.app"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-opentok-android-permissions": {
-      "PACKAGE_NAME": "org.conoceme.app"
-    },
-    "com.applozic.phonegap": {
-      "PACKAGE_NAME": "org.conoceme.app"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {},
@@ -385,57 +346,6 @@
       "file": "plugins/cordova-plugin-media-capture/www/android/init.js",
       "pluginId": "cordova-plugin-media-capture",
       "runs": true
-    },
-    {
-      "id": "cordova-plugin-inappbrowser.inappbrowser",
-      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-      "pluginId": "cordova-plugin-inappbrowser",
-      "clobbers": [
-        "cordova.InAppBrowser.open",
-        "window.open"
-      ]
-    },
-    {
-      "id": "cordova-plugin-network-information.network",
-      "file": "plugins/cordova-plugin-network-information/www/network.js",
-      "pluginId": "cordova-plugin-network-information",
-      "clobbers": [
-        "navigator.connection",
-        "navigator.network.connection"
-      ]
-    },
-    {
-      "id": "cordova-plugin-network-information.Connection",
-      "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-      "pluginId": "cordova-plugin-network-information",
-      "clobbers": [
-        "Connection"
-      ]
-    },
-    {
-      "id": "cordova-plugin-splashscreen.SplashScreen",
-      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-      "pluginId": "cordova-plugin-splashscreen",
-      "clobbers": [
-        "navigator.splashscreen"
-      ]
-    },
-    {
-      "id": "cordova-plugin-vibration.notification",
-      "file": "plugins/cordova-plugin-vibration/www/vibration.js",
-      "pluginId": "cordova-plugin-vibration",
-      "merges": [
-        "navigator.notification",
-        "navigator"
-      ]
-    },
-    {
-      "id": "com.applozic.phonegap.applozic",
-      "file": "plugins/com.applozic.phonegap/www/applozic.js",
-      "pluginId": "com.applozic.phonegap",
-      "clobbers": [
-        "applozic"
-      ]
     }
   ],
   "plugin_metadata": {
@@ -443,11 +353,6 @@
     "cordova-plugin-statusbar": "2.3.0",
     "cordova-plugin-file": "5.0.0",
     "cordova-plugin-media-capture": "2.0.0",
-    "cordova-plugin-inappbrowser": "1.7.2",
-    "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-splashscreen": "4.1.0",
-    "cordova-plugin-vibration": "2.1.6",
-    "cordova-opentok-android-permissions": "1.0.0",
-    "com.applozic.phonegap": "0.8.0"
+    "cordova-opentok-android-permissions": "1.0.0"
   }
 }
